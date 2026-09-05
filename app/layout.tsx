@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import './globals.css';
 
 export const metadata: Metadata = {
   title: 'CABAL Allocation Checker',
@@ -13,7 +12,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+      <body className="bg-gray-950 text-gray-100 min-h-screen">{children}</body>
     </html>
   );
 }
