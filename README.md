@@ -1,0 +1,1 @@
+# cabal-base-checker
