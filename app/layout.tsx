@@ -15,7 +15,7 @@ export default function RootLayout({
       <head>
         <script src="https://cdn.tailwindcss.com"></script>
       </head>
-      <body className="bg-gray-950 text-gray-100 min-h-screen">{children}</body>
+      <body className="bg-gray-950 text-gray-100 min-h-screen font-sans">{children}</body>
     </html>
   );
 }
